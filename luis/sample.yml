@@ -1,0 +1,14 @@
+luis:
+  predict-mask: '%s%s?id=%s&subscription-key=%s%s&q=%s'
+  localized:
+	de:
+	  url: https://api.projectoxford.ai/luis/v1/application
+	  app-id: XYZ
+	  app-key: XXX
+    en:
+	  url: https://api.projectoxford.ai/luis/v1/application
+	  app-id: XYZ
+	  app-key: XXX
+  preview: false
+  verbose: true
+  

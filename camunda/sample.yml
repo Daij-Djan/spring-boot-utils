@@ -1,0 +1,5 @@
+camunda:
+  bpm:
+    user:
+      name: admin
+      password: 1234
