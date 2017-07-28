@@ -12,4 +12,11 @@ Some Components (Services / Individual Helper classes)
 	=> a service that contacts the LUIS api for you. It is configured via the application.properties / yaml.<br/>
 	I included a Properties parse, the JSON Model I got from the microsoft android sdk and a sample configuration
 	
+4. ExchangeProvider
+	=> a component, a configratiob bean, an annotation and a spring-aop aspect that work together to provide POOLED instances of ExchangeServer [from Microsoft EWS api] to a method.<br/>
+	To use you need is to have a method annotated with @NeedsExchange AND as last parameter make it take an ExchangeService instance.<br/>
+	DONT CATCH Exceptions. The aspect will handle ServiceRequestExceptions for you and automatically refresh the server connection upon a timeout!
+	
+	[I added a small demo for this]  
+	
 *package names do not fit*

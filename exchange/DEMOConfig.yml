@@ -1,0 +1,5 @@
+exchange:
+  email: X@X.com
+  password: XXX
+  timeout-ms: 5000
+  tracingEnabled: false
